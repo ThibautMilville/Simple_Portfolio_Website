@@ -16,6 +16,7 @@ header nav{
     left: 0;
     top: 0;
     width: 100%;
+    z-index: 1000;
 }
 nav .navbar{
     width: 90%;
@@ -132,4 +133,10 @@ nav .navbar .logo{
 }
 .content .buttons button:hover{
     transform: scale(0.98);
+}
+header .girl img{
+    height: 95%;
+    position: absolute;
+    right: 80px;
+    bottom: 0;
 }
