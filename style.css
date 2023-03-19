@@ -49,3 +49,36 @@ nav .navbar .logo{
 .menu li a:hover{
     color: #000;
 }
+.navbar .search-box{
+    position: relative;
+    height: 50px;
+    width: 250px;
+}
+.search-box input[type="text"]{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    color: #2c3e50;
+    font-size: 18px;
+    outline: none;
+    border: 2px solid #2c3e50;
+    border-radius: 8px;
+    padding: 0 10px 0 40px;
+}
+.search-box a{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #2c3e50;
+    padding: 0 5px 0 0;
+    border-right: 2px solid #2c3e50;
+}
+.content{
+    position: absolute;
+    top: 33%;
+    left: 7%;
+}
