@@ -82,3 +82,36 @@ nav .navbar .logo{
     top: 33%;
     left: 7%;
 }
+.content .text{
+    font-size: 27px;
+    color: #2c3e50;
+}
+.content .name{
+    font-size: 75px;
+    color: #2c3e50;
+    margin: -20px 0 0 -3px;
+}
+.content .job{
+    font-size: 40px;
+    color: #2c3e50;
+    display: flex;
+}
+.content .job .typing-text{
+    color: #1de2d1;
+    margin-left: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid #1de2d1;
+    animation: typing 5s steps(15) infinite;
+}
+@keyframes typing{
+    0%{
+        width: 0ch;
+    }
+    50%{
+        width: 15ch;
+    }
+    100%{
+        width: 0ch;
+    }
+}
